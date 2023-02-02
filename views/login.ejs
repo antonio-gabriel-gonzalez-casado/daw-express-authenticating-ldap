@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form action="/login/auth" method="post">
+      <!-- user input-->
+      Username:<br>
+      <input type="text" name="username" placeholder="Username" required><br><br>
+      Password:<br>
+      <input type="password" name="password" placeholder="Password" required><br><br>
+      <!-- submit button -->
+      <input type="submit" value="login">
+    </form>
+    </body>
+  </body>
+</html>
