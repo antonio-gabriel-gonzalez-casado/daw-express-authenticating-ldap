@@ -5,8 +5,11 @@ Ejemplo básico de login en framework ExpressJS contra un repositorio LDAP
 Este proyecto consta de 4 paths:
 
 / -> GET redirige a la página principal
+
 /login -> GET redirige a la página del login
+
 /login/auth -> POST autenticación con los datos del formulario de login
+
 /users -> GET página de ejemplo generada por express generator
 
 # Prerequisitos
