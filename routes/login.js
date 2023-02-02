@@ -10,6 +10,7 @@ router.get('/', function(req, res, next) {
 
 
 router.post('/auth', (req, res) => {
+
   // Insert Login Code Here
   let username = req.body.username;
   let password = req.body.password;

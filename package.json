@@ -15,6 +15,7 @@
     "ldap-authentication": "^2.3.2",
     "ldapauth-fork": "^5.0.5",
     "morgan": "~1.9.1",
-    "passport-ldapauth": "^3.0.1"
+    "passport-ldapauth": "^3.0.1",
+    "path": "^0.12.7"
   }
 }
